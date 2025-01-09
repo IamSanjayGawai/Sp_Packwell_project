@@ -176,7 +176,7 @@ const Carousel = () => {
   }, []);
 
   return (
-    <div className="w-full h-screen flex items-center justify-between flex-col lg:flex-row">
+    <div className="w-full h-screen flex items-center justify-between flex-col lg:flex-row gap-5 lg:mb-0 xs:mb-[200px]">
       {/* Left Section */}
       <div className="w-full lg:w-[39%] h-screen flex justify-center items-center px-10">
         <div
@@ -211,7 +211,7 @@ const Carousel = () => {
         <div className="w-full flex items-center justify-center">
           <img
             key={currentSlide} // Ensure smooth transitions
-            className="h-[400px] w-[400px] transition-opacity duration-1000 ease-in-out ml-[250px]"
+            className="h-[400px] w-[400px] transition-opacity duration-1000 ease-in-out lg:ml-[250px]"
             src={slides[currentSlide].image}
             alt={`Slide ${currentSlide + 1}`}
           />
