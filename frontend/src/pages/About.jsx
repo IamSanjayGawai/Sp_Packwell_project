@@ -9,7 +9,7 @@ const About = () => {
     <div className="mx-auto max-w-5xl">
       <h2 className="text-xl font-semibold text-gray-900 dark:text-white sm:text-2xl">About Us</h2>
       <div className="my-8 xl:mb-16 xl:mt-12">
-        <img className="w-full dark:hidden" src={about} alt="" />
+        <img className="w-full " src={about} alt="" />
    
       </div>
       {/* <div className="mx-auto max-w-2xl space-y-6">

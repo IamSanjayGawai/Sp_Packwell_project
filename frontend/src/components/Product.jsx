@@ -17,7 +17,7 @@ const Product = ({cat}) => {
         
         >
           <a href="#">
-            <img className="mx-auto h-full dark:hidden" src={cat.image} alt="" />
+            <img className="mx-auto h-full " src={cat.image} alt="" />
             {/* <img className="mx-auto hidden h-full dark:block" src="https://flowbite.s3.amazonaws.com/blocks/e-commerce/imac-front-dark.svg" alt="" /> */}
           </a>
         </div>

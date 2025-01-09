@@ -16,7 +16,7 @@ console.log("productDetails", productDetails)
       <div class="lg:grid lg:grid-cols-2 lg:gap-8 xl:gap-16">
       <div className="shrink-0 max-w-md lg:max-w-lg mx-auto p-4 flex flex-col gap-6 bg-gray-50 rounded-lg shadow-lg dark:bg-gray-800 shadow-2xl">
   <img
-    className="w-full rounded-md dark:hidden"
+    className="w-full rounded-md "
     src={productDetails.image}
     alt="Product Image"
   />
