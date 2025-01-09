@@ -33,12 +33,19 @@ console.log("productDetails", productDetails)
     </a> */}
 
     {/* WhatsApp Button */}
-    <a
+    {/* <a
       href="https://wa.me/7720990081?text=Hello How can I help you ?"
       className="flex items-center justify-center w-full px-6 text-base font-semibold  text-white bg-black rounded-lg shadow-md hover:text-black hover:bg-white focus:outline-none"
     >
       <img className="w-15 h-14 mr-2" src={whatsapp} alt="WhatsApp" />
       Contact Us
+    </a> */}
+        <a
+      // href="https://wa.me/7720990081?text=Hello How can I help you ?"
+      className="flex items-center justify-center w-full px-6 py-2 text-base font-semibold  text-white bg-black dark:bg-white dark:text-black rounded-lg shadow-md hover:text-black hover:bg-white focus:outline-none cursor-pointer"
+    >
+      {/* <img className="w-15 h-14 mr-2" src={whatsapp} alt="WhatsApp" /> */}
+  Order Now
     </a>
   </div>
 </div>
@@ -110,12 +117,19 @@ console.log("productDetails", productDetails)
     </a> */}
 
     {/* WhatsApp Button */}
-    <a
+    {/* <a
       href="https://wa.me/7720990081?text=Hello How can I help you ?"
       className="flex items-center justify-center w-full px-6 text-base font-semibold  text-white bg-black rounded-lg shadow-md hover:text-black hover:bg-white focus:outline-none"
     >
       <img className="w-15 h-14 mr-2" src={whatsapp} alt="WhatsApp" />
       Contact Us
+    </a> */}
+    <a
+      // href="https://wa.me/7720990081?text=Hello How can I help you ?"
+      className="flex items-center justify-center w-full px-6 py-2 text-base font-semibold  text-white bg-black dark:bg-white dark:text-black rounded-lg shadow-md hover:text-black hover:bg-white focus:outline-none cursor-pointer"
+    >
+      {/* <img className="w-15 h-14 mr-2" src={whatsapp} alt="WhatsApp" /> */}
+  Order Now
     </a>
   </div>
         </div>

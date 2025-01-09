@@ -52,12 +52,12 @@ const Product = ({cat}) => {
             </li>
           </ul>
 
-          <div className="mt-4 flex items-center justify-between gap-4">
-  <p className="text-xl font-extrabold leading-tight text-gray-900 dark:text-white">
-    Order Now
+          <div className="mt-4 flex items-center justify-end gap-4">
+  <p className="text-xl font-extrabold leading-tight text-white dark:text-white dark:bg-black  bg-black p-2 rounded-lg">
+    Detail
   </p>
 
-  <a
+  {/* <a
     href="https://wa.me/7720990081?text=Hello, How can I help you?"
     target="_blank"
     rel="noopener noreferrer"
@@ -68,8 +68,8 @@ const Product = ({cat}) => {
       src={whatsapp}
       alt="WhatsApp"
     />
-    <span className=''>Contact</span>
-  </a>
+    <span className=''>Order Now</span>
+  </a> */}
 </div>
 
         </div>
